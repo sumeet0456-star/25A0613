@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sumeet | Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f5f7fa;
+            color: #333;
+        }
+
+        header {
+            background: #0a4d8c;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #083b6b;
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            background: #062f54;
+        }
+
+        section {
+            padding: 40px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        h2 {
+            color: #0a4d8c;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .project-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .project-card:hover {
+            transform: translateY(-3px);
+            transition: 0.3s;
+        }
+
+        footer {
+            background: #0a4d8c;
+            text-align: center;
+            color: white;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        .contact a {
+            color: #0a4d8c;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <p>I'm Sumeet — First Year CSE Student</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#skills">Education / Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home">
+        <h2>Home</h2>
+        <img src="img.jpg" alt="My Photo" style="width:200px; border-radius:50%; margin-bottom:20px;" />Hello! I’m
+        Sumeet, a passionate first-year CSE student who loves exploring technology, building creative projects, and
+        learning new skills every day. This website showcases my journey, achievements, and work. Have a look around!
+        </p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a Computer Science Engineering student with a strong interest in web development, programming, and
+            problem-solving. I enjoy experimenting with new technologies and building small projects that help me
+            understand concepts better. I believe in continuous learning and look forward to growing as a developer.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Education / Skills</h2>
+        <h3>Education</h3>
+        <p><strong>B.Tech in Computer Science Engineering</strong><br>First Year Student</p>
+
+        <h3>Skills</h3>
+        <ul>
+            <li>HTML, CSS</li>
+            <li>C Programming</li>
+            <li>Basic Python</li>
+            <li>Problem Solving</li>
+            <li>Git & GitHub (Beginner)</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project-card">
+                <h3>Portfolio Website</h3>
+                <p>A responsive personal website built using HTML and CSS to showcase my skills and projects.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Basic Calculator (C)</h3>
+                <p>A simple calculator application created in C language that performs basic arithmetic operations.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Python Mini Programs</h3>
+                <p>Small Python scripts created to practice logic building, loops, and functions.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Information</h2>
+        <p>Email: <a href="mailto:sumeet@example.com">sumeet@example.com</a></p>
+        <p>GitHub: <a href="https://github.com/sumeet0456-star" target="_blank">github.com/sumeet0456-star</a></p>
+        <p>LinkedIn: <a href="#" target="_blank">LinkedIn Profile</a></p>
+    </section>
+
+    <footer>
+        <p>© 2025 Sumeet | All Rights Reserved</p>
+    </footer>
+</body>
+
+</html>
